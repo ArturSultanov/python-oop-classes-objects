@@ -4,4 +4,4 @@ class Post:
         self.author = author
 
     def get_post_info(self):
-        print(f"Post: {self.message} is written by {self.author}")
+        print(f"Post: \"{self.message}\" is written by {self.author}")
